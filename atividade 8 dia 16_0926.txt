@@ -1,0 +1,21 @@
+
+programa
+{
+	funcao inicio()
+	{
+		// ENZO KAUE NASCIMENTO de OLIVEIRA 16/09/26 //
+		
+		// Declaração de variáveis
+		real altura, peso_ideal
+
+		// Entrada de dados
+		escreva("Digite a sua altura (em metros): ")
+		leia(altura)
+
+		// Processamento (Cálculo do peso ideal)
+		peso_ideal = (72.7 * altura) - 58
+
+		// Saída de dados
+		escreva("Seu peso ideal é: ", peso_ideal, " kg")
+	}
+}

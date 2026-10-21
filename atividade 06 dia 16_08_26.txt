@@ -1,0 +1,15 @@
+programa{
+  funcao inicio(){
+    //ENZO KAUE NASCIMENTO DE OLIVEIRA 1C 16/09/26//
+    inteiro n1
+    inteiro n2
+    escreva("digite o numero 1; ")
+    leia(n1)
+    escreva("digite o numero 2; ")
+    leia (n2)
+    inteiro soma
+    soma=(n1*n1)+(n2*n2)
+    escreva("as somas dos quadrados é igual",soma)
+
+  }
+}

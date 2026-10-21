@@ -1,0 +1,15 @@
+programa {
+	funcao inicio() {
+		// ENZO KAUE NASCIMENTO de OLIVEIRA 16/09/26 //
+		real ganho_por_hora
+		inteiro num_horas
+		escreva("qual o valor recebido por hora ?: ")
+		leia(ganho_por_hora)
+		escreva("qual o numero de horas trabalhadas ?: ")
+		leia(num_horas)
+		real salario
+		salario = (ganho_por_hora*num_horas)
+		escreva ("o valor de salario é de:", salario)
+
+	}
+}

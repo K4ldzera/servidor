@@ -1,0 +1,39 @@
+programa
+{
+	funcao inicio()
+	{
+		cadeia nome, cidade, bairro
+		inteiro idade
+
+		escreva("Digite o nome da pessoa: ")
+		leia(nome)
+
+		escreva("Digite a cidade: ")
+		leia(cidade)
+
+		escreva("Digite o bairro: ")
+		leia(bairro)
+
+		escreva("Digite a idade: ")
+		leia(idade)
+
+		escreva("\n====================================\n")
+		escreva("         DADOS CADASTRADOS          \n")
+		escreva("====================================\n")
+		escreva("Nome: ", nome, "\n")
+		escreva("Cidade: ", cidade, "\n")
+		escreva("Bairro: ", bairro, "\n")
+		escreva("Idade: ", idade, " anos\n")
+
+		se (idade >= 18)
+		{
+			escreva("Situação: É maior de idade.\n")
+		}
+		senao
+		{
+			escreva("Situação: É menor de idade.\n")
+		}
+		escreva("====================================\n")
+		// Enzo Kauê nascimento de oliveira
+	}
+}

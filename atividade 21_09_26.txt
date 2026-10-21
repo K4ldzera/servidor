@@ -1,0 +1,24 @@
+programa
+{
+	funcao inicio()
+	{
+		real temperatura
+
+		escreva("Digite a temperatura em °C: ")
+		leia(temperatura)
+
+		se (temperatura < 10)
+		{
+			escreva("Você vai congelar")
+		}
+		senao se (temperatura >= 10 e temperatura < 20)
+		{
+			escreva("Está frio")
+		}
+		senao
+		{
+			escreva("Está agradável")
+			// Enzo kaue nascimento de oliveira 1c 21/09/26
+		}
+	}
+}

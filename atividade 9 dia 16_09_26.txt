@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio()
+	{
+		real salario_atual, novo_salario
+
+		escreva("Digite o salário atual do funcionário: R$ ")
+		leia(salario_atual)
+
+		novo_salario = salario_atual * 1.15
+		 
+		 //ENZO KAUE NASCIMENTO DE OLIVEIRA 1C DIA 16/09/26
+
+		escreva("\nO novo salário com 15% de reajuste é: R$ ", novo_salario)
+	}
+}

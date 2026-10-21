@@ -1,0 +1,10 @@
+programa {
+	funcao inicio() {
+		// ENZO KAUE NASCIMENTO DE OLIVIVEIRA 1C 16/09/26
+		real altura, peso_ideal
+		escreva("digite a sua altura(em metros): ")
+		leia(altura)
+		peso_ideal = (72.7 * altura) - 58
+		escreva("seu peso ideal é: ",peso_ideal)
+	}
+}

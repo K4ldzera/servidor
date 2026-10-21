@@ -1,0 +1,34 @@
+programa
+{
+	funcao inicio()
+	{
+		cadeia nome
+		real preco, total, valor_final
+		inteiro quantidade
+
+		escreva("Digite o nome do cliente: ")
+		leia(nome)
+
+		escreva("Digite o preço do produto: ")
+		leia(preco)
+
+		escreva("Digite a quantidade comprada: ")
+		leia(quantidade)
+
+		total = preco * quantidade
+
+		se (total > 100)
+		{
+			valor_final = total * 0.90
+		}
+		senao
+		{
+			valor_final = total
+		}
+
+		escreva("\nCliente: ", nome, "\n")
+	// Enzo kauê nascimento de oliveira 1c 22/09/26
+	escreva("Valor final a pagar: R$ ", valor_final, "\n")
+	}
+}
+
